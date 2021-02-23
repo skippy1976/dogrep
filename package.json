@@ -1,0 +1,25 @@
+{
+  "name": "dogrep",
+  "version": "1.0.0",
+  "description": "A grep wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skippy1976/dogrep.git"
+  },
+  "keywords": [
+    "grep"
+  ],
+  "author": "A. Harteveldt",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/skippy1976/dogrep/issues"
+  },
+  "homepage": "https://github.com/skippy1976/dogrep#readme",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}

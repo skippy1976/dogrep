@@ -1,21 +1,4 @@
-# dogrep
-Node.js wrapper around grep command
-
-Usage:
-
-npm install dogrep
-
-const grep = require('dogrep');
-
-grep function takes:
-
-- text or pattern to grep for
-- path to file to grep
-- callback function
-
-Example:
-
-const grep = require('dogrep');
+const grep = require('./index.js');
 
 const syntax = "Syntax: <test to grep> <file path>";
 
@@ -50,5 +33,4 @@ grep(txt, filepath, function (err, result) {
                 console.log(result);
         }
 });
-
 
