@@ -1,13 +1,11 @@
 #dogrep
-[![NPM](https://nodei.co/npm/dogrep.png?downloads=true&stars=true)](https://nodei.co/npm/dogrep/)
+[![NPM](https://nodei.co/npm/@skippy76/dogrep.png?downloads=true&stars=true)](https://nodei.co/npm/@skippy76/dogrep/)
 
 Node.js wrapper around grep command
 
 Usage:
 
-npm install dogrep
-
-const grep = require('dogrep');
+'npm install dogrep'
 
 grep function takes:
 
@@ -17,7 +15,7 @@ grep function takes:
 
 Example:
 
-const grep = require('dogrep');
+'const grep = require('@skippy76/dogrep');
 
 const syntax = "Syntax: <test to grep> <file path>";
 
@@ -52,5 +50,5 @@ grep(txt, filepath, function (err, result) {
                 console.log(result);
         }
 });
-
+'
 
