@@ -1,4 +1,6 @@
-# dogrep
+#dogrep
+[![NPM](https://nodei.co/npm/dogrep.png?downloads=true&stars=true)](https://nodei.co/npm/dogrep/)
+
 Node.js wrapper around grep command
 
 Usage:
