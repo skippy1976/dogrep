@@ -1,6 +1,6 @@
 {
   "name": "@skippy76/dogrep",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A grep wrapper",
   "main": "index.js",
   "scripts": {

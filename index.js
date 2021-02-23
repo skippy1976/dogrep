@@ -4,7 +4,7 @@ module.exports = function (text, file, cb) {
 	var output = "";
 	var error = "";
 
-	const grep = spawn('grep', ['"' + text + '"', file]);
+	const grep = spawn('grep', [text, file]);
 
 	grep.stdout.on('data', (data) => {
 		output += data;

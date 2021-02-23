@@ -4,6 +4,7 @@
 Node.js wrapper around grep command
 
 Usage:
+------
 
 'npm install dogrep'
 
@@ -14,8 +15,12 @@ grep function takes:
 - callback function
 
 Example:
+--------
 
-'const grep = require('@skippy76/dogrep');
+The following example shows how to use the library to perform a grep from the command line.  To execute the example you must provide the text to grep for and the filename as command line parameters.
+
+```
+const grep = require('@skippy76/dogrep');
 
 const syntax = "Syntax: <test to grep> <file path>";
 
@@ -50,5 +55,5 @@ grep(txt, filepath, function (err, result) {
                 console.log(result);
         }
 });
-'
+```
 
